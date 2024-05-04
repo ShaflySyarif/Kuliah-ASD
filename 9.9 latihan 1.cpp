@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <time.h>
 #define MAX 10
 
 using namespace std;
@@ -39,7 +38,7 @@ void SelectionSort() {
 
 int main() {
     int i;
-    srand(time(0));
+    srand(0);
     cout << "DATA SEBELUM TERURUT" << endl;
     for (i = 0; i < MAX; i++) {
         Data[i] = rand() / 1000 + 1;
