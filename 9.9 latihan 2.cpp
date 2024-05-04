@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <time.h>
 #define MAX 10
 
 using namespace std;
@@ -43,7 +42,7 @@ int main()
 {
     int i;
 
-    srand(time(0));
+    srand(0);
 
     cout << "Data sebelum pengurutan: ";
     for (i = 0; i < MAX; i++) {
