@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <time.h>
 #define MAX 10
 
 using namespace std;
@@ -53,7 +52,7 @@ void BinaryInsertSort()
 int main()
 {
     int i;
-    srand(time(0));
+    srand(0);
 
     // Membangkitkan bilangan acak
     cout << "DATA SEBELUM TERURUT" << endl;
