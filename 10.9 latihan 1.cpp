@@ -1,7 +1,7 @@
 //10.9 No 1
 #include <iostream>
-#include <stdlib.h> // srand, rand
-#include <time.h>   // time
+#include <stdlib.h>
+#include <time.h> 
 
 using namespace std;
 
@@ -26,7 +26,7 @@ private:
     void preorder(Node *);
     void inorder(Node *);
     void postorder(Node *);
-    int hitungNodeRecursive(Node *); // Declaration added
+    int hitungNodeRecursive(Node *);
 };
 
 Node::Node(int dt) {
